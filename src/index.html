@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>五子棋</title>
+	<style>
+		#app{
+			display:block;
+			margin:20px auto;
+			/*box-shadow: -2px -2px 2px #EFEFEF,5px 5px 5px #B9B9B9;*/
+			background:#ECC281;
+		}
+		.handle{margin:30px auto;width:450px;text-align:center;}
+	</style>
+</head>
+<body>
+	<div class="handle">
+		<h2>五子棋人机大战</h2>
+		<button id='goback'>悔棋</button>
+		<button id='recover'>撤销</button>
+		<button id='reload'>重新开始</button>
+	</div>
+	<canvas id='app' width='450' height='450'></canvas>
+	
+	<script src="gobang.js"></script>
+</body>
+</html>
