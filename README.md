@@ -1,5 +1,7 @@
 # 五子棋
 
+在线预览：[Demo](http://htmlpreview.github.io/?https://github.com/Anilway/Gobang-game/blob/master/src/index.html)
+
 请编写一个单机【五子棋】游戏，要求如下：
 
 > 使用原生技术实现，兼容 Chrome 浏览器即可。
